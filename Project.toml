@@ -1,7 +1,7 @@
 name = "Hypertransform"
 uuid = "fc0ce2b4-e141-4471-8aec-392ceb78b612"
 authors = ["Riccardo Buscicchio <riccardo.buscicchio@unimib.it> and contributors"]
-version = "1.0.0-DEV"
+version = "1.0.0"
 
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
