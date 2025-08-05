@@ -6,6 +6,6 @@ makedocs(
     modules = [Hypertransform],
     pages = [
         "Home" => "index.md",
-    ]
+    ],
     deploydocs=true
 )
