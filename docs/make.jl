@@ -1,5 +1,8 @@
 using Documenter
 using Hypertransform
+using DocumenterCitations
+
+bib = CitationBibliography(joinpath(@__DIR__, "src", "refs.bib"))
 
 makedocs(
     sitename = "Hypertransform.jl",
@@ -7,6 +10,7 @@ makedocs(
     pages = [
         "Home" => "index.md",
     ],
+    plugins=[bib],
 )
 
 # Deploy the built docs (push to gh-pages)

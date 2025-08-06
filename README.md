@@ -5,5 +5,10 @@
 ## Package documentation
 [Documentation](https://RiccardoBuscicchio.github.io/Hypertransform.jl/)
 
+## Other languages
+A Python package is also available on PyPI:
+https://pypi.org/project/hypertransform/1.2.0/
+
 ## Citing
-See [`CITATION.bib`](CITATION.bib) for the relevant reference(s).
+If you use Hypertransform for a scientific publication, please cite this code and the associated publication.
+Please see [`CITATION.bib`](CITATION.bib) for TeX-ready reference(s).
