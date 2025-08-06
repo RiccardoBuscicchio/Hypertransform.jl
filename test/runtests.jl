@@ -25,4 +25,9 @@ using Hypertransform
     xrand_back = hypercubify(yrand)
     @test isapprox(xrand, xrand_back; atol=1e-10)
     @test size(yrand) == size(xrand)
+    
+    # Test that values outside bounds throw an ArgumentError
+    @test_throws ArgumentError hypertriangulate([1.2, 0.5, 0.3])   # Above upper bound
+    @test_throws ArgumentError hypertriangulate([-0.1, 0.2, 0.4]) # Below lower bound
+    @test_throws ArgumentError hypertriangulate([0.1, 0.5, 0.7]; bounds=(0.2, 0.8)) # Custom bounds
 end
