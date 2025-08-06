@@ -11,7 +11,7 @@ The hypercube is the space the samplers usually work in; the
     components of x are in no particular order.
     
     The hypertriangle is the space where the components are sorted into
-    ascenting order, \( y0 < y1 < ... < yn \). 
+    ascenting order, ( y0 < y1 < ... < yn ). 
     
     The (unit) transformation is defined by:
 
