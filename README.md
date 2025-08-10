@@ -3,7 +3,7 @@
 [![Documentation Status](https://github.com/RiccardoBuscicchio/Hypertransform.jl/actions/workflows/Docs.yml/badge.svg)](https://RiccardoBuscicchio.github.io/Hypertransform.jl/)
 [![version](https://juliahub.com/docs/General/Hypertransform/stable/version.svg)](https://juliahub.com/ui/Packages/General/Hypertransform)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16788553.svg)](https://doi.org/10.5281/zenodo.16788553)
-![GitHub License](https://img.shields.io/github/license/RiccardoBuscicchio/Hypertransform.jl)
+[![License](https://img.shields.io/github/license/RiccardoBuscicchio/Hypertransform.jl)](https://github.com/RiccardoBuscicchio/Hypertransform.jl/blob/main/LICENSE)
 
 
 ## Install 
