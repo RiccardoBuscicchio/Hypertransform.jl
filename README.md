@@ -7,12 +7,18 @@
 
 
 ## Install 
-The package is available on JuliaHub, here: https://juliahub.com/ui/Packages/General/Hypertransform
-So installing it is as easy as:
+The package is available on [JuliaHub](https://juliahub.com/ui/Packages/General/Hypertransform).
+
+Installing it is as easy as:
 ```julia
 Pkg.add("Hypertransform")
 ```
 
+Alternatively you can install it directly from source using:
+```julia
+using Pkg
+Pkg.add(url="https://github.com/RiccardoBuscicchio/Hypertransform.jl")
+```
 ## Package documentation
 [Documentation](https://RiccardoBuscicchio.github.io/Hypertransform.jl/)
 
